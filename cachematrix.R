@@ -1,7 +1,7 @@
 ## Script to invert matrices using cache
 ## Two functions required
 
-## Function to store matrix in cache
+## Function to store matrices in cache
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
@@ -18,7 +18,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Function to invert matrix from cache
+## Function to invert matrices from cache
 
 cacheSolve <- function(x, ...) {
   ## Return a matrix that is the inverse of 'x'
